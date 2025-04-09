@@ -8,8 +8,8 @@
  ************************************************************/
 
 // --- Configuration ---
-const PERCEPTION_WS_URL = 'ws://192.168.178.44:8766';
-const LOGGING_WS_URL = 'ws://192.168.178.44:8765';
+const PERCEPTION_WS_URL = 'ws://localhost:8766';
+const LOGGING_WS_URL = 'ws://localhost:8765';
 
 // --- State ---
 let perceptionWs = null;
