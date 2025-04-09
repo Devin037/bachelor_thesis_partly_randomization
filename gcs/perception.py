@@ -124,9 +124,9 @@ async def main():
     """
     Main function to start the WebSocket server.
     """
-    server = await websockets.serve(face_detection_server, "192.168.178.44", 8766)
+    server = await websockets.serve(face_detection_server, "localhost", 8766)
 
-    print("WebSocket server started at ws://192.168.178.44:8766")
+    print("WebSocket server started at ws://localhost:8766")
     await server.wait_closed()
 
 
